@@ -1,3 +1,4 @@
 import LandingPage from '../pages/landing-page/landingPage'
 import Navigation from './navigation/navigation'
-export { LandingPage, Navigation };
+import Footer from './footer/footer';
+export { LandingPage, Navigation, Footer };

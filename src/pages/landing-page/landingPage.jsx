@@ -2,7 +2,7 @@ import './landing-page.css'
 
 import img1 from '../../assets/banner.png'
 import img2 from '../../assets/OFFER.png'
-import {Navigation} from '../../components/index'
+import {Navigation,Footer} from '../../components/index'
 export default function LandingPage()
 {
     return (
@@ -111,17 +111,7 @@ export default function LandingPage()
 
     </div>
     <hr/>
-    <footer class="footer">
-        <div class="icon">
-            <p class="text-center footer-text">FOLLOW US</p>
-            <a href=""><i class="fab fa-twitter"></i></a>
-            <a href=""><i class="fab fa-github"></i></a>
-            <a href=""><i class="fab fa-instagram"></i></a>
-            <p class="font-size-10 text-center footer-text">&copy;2022|Organix</p>
-        </div>
-
-
-    </footer>
+    <Footer/>
 
 
 

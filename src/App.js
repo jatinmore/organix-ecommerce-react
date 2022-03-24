@@ -1,10 +1,10 @@
 import './App.css';
-import {Navigation,LandingPage} from './components/index'
+import { Navigation, LandingPage, Footer } from './components/index'
+
 function App() {
-  return (
-    <Navigation/>,
-    <LandingPage/>
-  );
+    return ( 
+      <LandingPage/>
+    );
 }
 
 export default App;
