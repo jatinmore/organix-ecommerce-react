@@ -1,8 +1,9 @@
 import './App.css';
-
+import {Navigation,LandingPage} from './components/index'
 function App() {
   return (
-   <h1>HELLO</h1>
+    <Navigation/>,
+    <LandingPage/>
   );
 }
 
