@@ -1,11 +1,12 @@
 import './App.css';
-import { Navigation, LandingPage, Footer, Cart, Product } from './components/index'
+import { Navigation, LandingPage, Footer, Cart, Product ,Wishlist} from './components/index'
 
 function App() {
     return (
         // <LandingPage/>
-        <Product/>
-    );
+        // <Product/>
+      <Wishlist/>
+        );
 }
 
 export default App;

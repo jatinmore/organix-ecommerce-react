@@ -3,4 +3,12 @@ import Navigation from './navigation/navigation'
 import Footer from './footer/footer';
 import Cart from '../pages/cart-page/cart';
 import Product from '../pages/product/product';
-export { LandingPage, Navigation, Footer, Cart, Product };
+import Wishlist from '../pages/wishlist/wishlist';
+export {
+    LandingPage,
+    Navigation,
+    Footer,
+    Cart,
+    Product,
+    Wishlist
+};
