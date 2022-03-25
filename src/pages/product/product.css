@@ -1,0 +1,28 @@
+@import url('../../pages/landing-page/landing-page.css');
+.sidebar {
+    height: 100%;
+    position: static;
+}
+
+.product-list {
+    grid-template-columns: auto auto auto;
+    column-gap: 2rem;
+}
+
+.size-container {
+    grid-template-columns: auto auto;
+}
+
+.size-container button {
+    width: 3rem;
+}
+
+.fa-star {
+    font-size: 0.9rem;
+}
+
+.category p,
+.rating p,
+.size p {
+    padding-top: 0.5rem;
+}
