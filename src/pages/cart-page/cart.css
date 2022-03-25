@@ -1,4 +1,4 @@
-@import url(../../pages/landing-page/landing-page.css);
+@import url('../../pages//landing-page/landing-page.css');
 .horizontal-card {
     width: fit-content;
     display: flex;
@@ -7,14 +7,10 @@
     border: none;
     border: outset;
     margin-bottom: 2rem;
+    border-radius: 0.4rem;
 }
 
 .h-text {
-    /* position: relative;
-    left: 18rem;
-    bottom: 12rem;
-    padding: 1rem;
-    width: fit-content; */
     flex: 1;
 }
 
@@ -22,27 +18,9 @@
     float: left;
 }
 
-
-/* .btn-h {
-    margin: 2rem 20rem 0rem 0rem;
-    float: left;
-    width: 14rem;
-} */
-
 .qty {
     width: 20%
 }
-
-
-/* .checkout {
-    display: flex;
-    justify-content: space-between;
-} */
-
-
-/* .checkout span {
-    margin-right: 4.5rem;
-} */
 
 .checkout {
     width: 15rem;
