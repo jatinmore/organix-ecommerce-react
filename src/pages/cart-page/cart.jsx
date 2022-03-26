@@ -1,5 +1,5 @@
 import './cart.css'
-import '../../pages/landing-page/landing-page.css'
+import '../../styles/style.css';
 import { Navigation,Footer } from '../../components/'
 export default function Cart()
 {
@@ -7,12 +7,11 @@ export default function Cart()
         
         <><>
             <Navigation />,
-
             <div className="container">
                 <div className="grid-container-column">
                     <div className="item1">
                         <div className="horizontal-card box-shadow">
-                            <img className="horizontal-img" srcset="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
+                            <img className="horizontal-img" src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
                             <div className="h-text description">
                                 <h5>Organic Fruits & Veggies
                                 </h5><br />
@@ -27,7 +26,7 @@ export default function Cart()
                             </div>
                         </div>
                         <div className="horizontal-card box-shadow">
-                            <img className="horizontal-img" srcset="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
+                            <img className="horizontal-img" src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
                             <div className="h-text description">
                                 <h5>Organic Fruits & Veggies
                                 </h5><br />
@@ -44,7 +43,7 @@ export default function Cart()
 
 
                         <div className="horizontal-card box-shadow">
-                            <img className="horizontal-img" srcset="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
+                            <img className="horizontal-img" src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
                             <div className="h-text description">
                                 <h5>Organic Fruits & Veggies
                                 </h5><br />
@@ -83,24 +82,18 @@ export default function Cart()
                                 <span>500$</span>
                             </div>
                         </div>
-
-
                                     <br />
                                     <button className="btn-cart btn dark ">Place Order</button>
 
                                 </div>
                         </div>
                     </div>
-
-
-
                     <div>
-
-
-
                     </div>
                 </div>
             </div>
 
-        </><hr /><Footer /></>)
+        </><hr />
+        <Footer /></>
+)
 }

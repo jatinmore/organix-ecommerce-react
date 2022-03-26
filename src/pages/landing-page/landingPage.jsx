@@ -1,4 +1,4 @@
-import './landing-page.css'
+import '../../styles/style.css'
 
 import img1 from '../../assets/banner.png'
 import img2 from '../../assets/OFFER.png'
