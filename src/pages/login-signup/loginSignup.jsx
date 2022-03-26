@@ -42,6 +42,6 @@ export default function LoginSignup()
                 </div>
             </div>
         </div>
-        <script src='./login.js' type='text/javascript'></script></>
+    </>
     )
 }

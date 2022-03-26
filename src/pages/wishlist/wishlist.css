@@ -1,16 +1,18 @@
 @import url('../../pages/landing-page/landing-page.css');
 .card-b {
-    position: absolute;
+    /* position: absolute; */
 }
 
-body {
-    overflow: hidden;
-}
+
+/* .product-list {
+    grid-template-columns: auto auto auto;
+    column-gap: 2rem;
+} */
 
 .wishlist-badge {
     position: relative;
-    left: 4rem;
-    /* bottom: 20rem; */
+    left: 7.8rem;
+    bottom: 21rem;
 }
 
 .wishlist-icon {

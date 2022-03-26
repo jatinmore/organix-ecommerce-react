@@ -1,4 +1,4 @@
-@import url('../../pages//landing-page/landing-page.css');
+@import url('../../styles/style.css');
 .horizontal-card {
     width: fit-content;
     display: flex;
@@ -7,7 +7,6 @@
     border: none;
     border: outset;
     margin-bottom: 2rem;
-    border-radius: 0.4rem;
 }
 
 .h-text {

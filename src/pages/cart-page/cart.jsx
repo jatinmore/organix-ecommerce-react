@@ -1,4 +1,5 @@
 import './cart.css'
+import '../../styles/style.css';
 import { Navigation,Footer } from '../../components/'
 export default function Cart()
 {
@@ -6,7 +7,6 @@ export default function Cart()
         
         <><>
             <Navigation />,
-
             <div className="container">
                 <div className="grid-container-column">
                     <div className="item1">
@@ -82,24 +82,18 @@ export default function Cart()
                                 <span>500$</span>
                             </div>
                         </div>
-
-
                                     <br />
                                     <button className="btn-cart btn dark ">Place Order</button>
 
                                 </div>
                         </div>
                     </div>
-
-
-
                     <div>
-
-
-
                     </div>
                 </div>
             </div>
 
-        </><hr /><Footer /></>)
+        </><hr />
+        <Footer /></>
+)
 }

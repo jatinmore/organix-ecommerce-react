@@ -1,4 +1,4 @@
-import '../../pages/landing-page/landing-page.css';
+import '../../styles/style.css';
 export default function Navigation ()
 {
     return(
