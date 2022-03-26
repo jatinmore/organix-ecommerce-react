@@ -4,10 +4,11 @@
     position: static;
 }
 
-.product-list {
+
+/* .product-list {
     grid-template-columns: auto auto auto;
     column-gap: 2rem;
-}
+} */
 
 .size-container {
     grid-template-columns: auto auto;

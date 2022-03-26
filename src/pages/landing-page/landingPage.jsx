@@ -36,74 +36,74 @@ export default function LandingPage()
                 </div>
             </div>
 
-<div class="items">
-<div class="banner">
-    <img src={img1} class="img-responsive " alt=""/>
+<div className="items">
+<div className="banner">
+    <img src={img1} className="img-responsive " alt=""/>
 </div>
-<div class="ad">
-    <img src={img2} class="img-responsive" alt=""/>
+<div className="ad">
+    <img src={img2} className="img-responsive" alt=""/>
 </div>
 </div>
 
-<div class="grid-container">
-        <div class="item1">
-            <div class="card">
-                <img class="card-img" srcset="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"/>
+<div className="grid-container">
+        <div className="item1">
+            <div className="card">
+                <img className="card-img" srcset="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"/>
                 <hr/>
-                <div class="description">
+                <div className="description">
                     <h5>Organic Fruits & Veggies
                     </h5><br/>
                     <p>
                         200$</p>
-                    <div class="card-btn ">
-                        <button class="btn dark ">Add</button>
+                    <div className="card-btn ">
+                        <button className="btn dark ">Add</button>
                     </div>
                 </div>
             </div>
         </div>
 
 
-        <div class="item2">
-            <div class="card">
-                <img class="card-img" srcset="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"/>
+        <div className="item2">
+            <div className="card">
+                <img className="card-img" srcset="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"/>
                 <hr/>
-                <div class="description">
+                <div className="description">
                     <h5>Organic Fruits & Veggies
                     </h5><br/>
                     <p>
                         200$</p>
-                    <div class="card-btn ">
-                        <button class="btn dark ">Add</button>
+                    <div className="card-btn ">
+                        <button className="btn dark ">Add</button>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="item3">
-            <div class="card">
-                <img class="card-img" srcset="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"/>
+        <div className="item3">
+            <div className="card">
+                <img className="card-img" srcset="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"/>
                 <hr/>
-                <div class="description">
+                <div className="description">
                     <h5>Organic Fruits & Veggies
                     </h5><br/>
                     <p>
                         200$</p>
-                    <div class="card-btn ">
-                        <button class="btn dark ">Add</button>
+                    <div className="card-btn ">
+                        <button className="btn dark ">Add</button>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="item4">
-            <div class="card">
-                <img class="card-img" srcset="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"/>
+        <div className="item4">
+            <div className="card">
+                <img className="card-img" srcset="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"/>
                 <hr/>
-                <div class="description">
+                <div className="description">
                     <h5>Organic Fruits & Veggies
                     </h5><br/>
                     <p>
                         200$</p>
-                    <div class="card-btn ">
-                        <button class="btn dark ">Add</button>
+                    <div className="card-btn ">
+                        <button className="btn dark ">Add</button>
                     </div>
                 </div>
             </div>
