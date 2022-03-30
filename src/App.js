@@ -3,7 +3,7 @@ import { Navigation, LandingPage, Footer, Cart, Product, Wishlist, LoginSignup,L
 
 function App() {
     return (
-        <Cart/>
+        <LoginSignup/>
         )
 }
 
