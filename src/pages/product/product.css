@@ -19,6 +19,7 @@
 
 .fa-star {
     font-size: 0.9rem;
+    color: var(--yellow);
 }
 
 .rate {

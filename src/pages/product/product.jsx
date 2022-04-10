@@ -1,52 +1,18 @@
 import "./product.css";
 import { Navigation, Footer } from "../../components";
-const product = [
-  {
-    id: "item1",
-    img: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-    name: "Organic Veggies",
-    rating: 5,
-    price: 200,
-  },
-  {
-    id: "item2",
-    img: "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXBwbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
-    name: "Organic Apples",
-    rating: 4,
-    price: 150,
-  },
-  {
-    id: "item3",
-    img: "https://images.unsplash.com/photo-1600271886742-f049cd451bba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8b3JhbmdlJTIwanVpY2V8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
-    name: "Organic Orange Juice",
-    rating: 3,
-    price: 100,
-  },
-
-  {
-    id: "item4",
-    img: "https://images.unsplash.com/photo-1608797178974-15b35a64ede9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YWxtb25kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
-    name: "Organic Almonds",
-    rating: 2,
-    price: 350,
-  },
-  {
-    id: "item5",
-    img: "https://images.unsplash.com/photo-1635436338433-89747d0ca0ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG9yZ2FuaWMlMjBtaWxrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
-    name: "Organic Milk",
-    rating: 3,
-    price: 50,
-  },
-  {
-    id: "item6",
-    img: "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZnJ1aXRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
-    name: "Organic Strawberries",
-    rating: 1,
-    price: 200,
-  },
-];
-
+import { products } from "../../backend/db/products";
+import { ReducerFunc } from "../../reducer/reducer";
 export default function Product() {
+  const sortedProducts = (product, sortBy) => {
+    if (sortBy === "PRICE_HIGH_TO_LOW")
+      return [...product].sort((a, b) => b.discountPrice - a.discountPrice);
+    else if (sortBy === "RATING_HIGH_TO_LOW")
+      return [...product].sort((a, b) => b.rating - a.rating);
+
+
+const finalProducts = sortedProducts(ratingFiltered, state.sortBy);
+
+
   return (
     <>
       <Navigation />
@@ -64,7 +30,8 @@ export default function Product() {
                   <div class="rating">
                     <label for="">
                       <p>
-                        <input type="checkbox" /> 2<i class="fas fa-star"></i>{" "}
+                        <input type="checkbox" onChange={() => dispatch({ type: "RATING_HIGH_TO_LOW" })}
+ /> 2<i class="fas fa-star"></i>{" "}
                         and above
                       </p>
                     </label>
@@ -127,7 +94,7 @@ export default function Product() {
                     </p>
                     <p>
                       <label>
-                        <input type="radio" name="sort" id="" />
+                        <input type="radio" name="sort" id=""  />
                         High to Low
                       </label>
                     </p>
@@ -157,7 +124,7 @@ export default function Product() {
           <div class="">
             <div class="container">
               <div className="grid-container product-list">
-                {product.map((item) => (
+                {products.map((item) => (
                   <>
                     <div className={item.id}>
                       <div className="card">
@@ -166,6 +133,10 @@ export default function Product() {
                           <h5>{item.name}</h5>
                           <br />
                           <p>{item.price}$</p>
+                          <br />
+                          <div className="text-left">
+                           {item.rating}<i className="fas fa-star"></i>
+                            </div>
                           <div class="card-btn ">
                             <button class="btn dark ">Add</button>
                           </div>
@@ -184,4 +155,4 @@ export default function Product() {
       <Footer />
     </>
   );
-}
+}}
