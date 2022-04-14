@@ -9,6 +9,14 @@
     margin-bottom: 2rem;
 }
 
+.btn-count {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    background: var(--black);
+    color: var(--white);
+}
+
 .h-text {
     flex: 1;
 }
