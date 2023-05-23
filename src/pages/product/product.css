@@ -20,10 +20,20 @@
 
 .fa-star {
     font-size: 0.9rem;
+    color: var(--yellow);
+}
+
+.rate {
+    color: var(--yellow);
 }
 
 .category p,
 .rating p,
 .size p {
     padding-top: 0.5rem;
+}
+
+.card-img {
+    height: 10rem;
+    width: 16.25rem;
 }
