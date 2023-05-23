@@ -1,0 +1,50 @@
+@import url('../../styles/style.css');
+.horizontal-card {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border: none;
+    border: outset;
+    margin-bottom: 2rem;
+}
+
+.btn-count {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    background: var(--black);
+    color: var(--white);
+}
+
+.h-text {
+    flex: 1;
+}
+
+.btn-h {
+    float: left;
+}
+
+.qty {
+    width: 20%
+}
+
+.checkout {
+    width: 15rem;
+    padding: 1rem;
+    height: max-content;
+}
+
+.btn-cart {
+    width: 100%;
+}
+
+.horizontal-img {
+    width: 12rem;
+    height: 10rem;
+}
+
+.grid-container-column {
+    display: grid;
+    grid-template-columns: auto auto;
+}
