@@ -1,0 +1,49 @@
+@import url('../../pages/landing-page/landing-page.css');
+.card-b {
+    /* position: absolute; */
+}
+
+
+/* .product-list {
+    grid-template-columns: auto auto auto;
+    column-gap: 2rem;
+} */
+
+.wishlist-badge {
+    position: relative;
+    left: 7.8rem;
+    bottom: 21rem;
+}
+
+.wishlist-icon {
+    color: var(--red);
+    font-size: 1.2rem;
+}
+
+.btn-round {
+    background: var(--white);
+    border-radius: 50%;
+    border: none;
+    padding: 0.5rem;
+    margin: auto;
+    border: 1px solid var(--black);
+    outline: none;
+}
+
+form.search-container input[type=text] {
+    padding: 0.5rem;
+    background: #f1f1f1;
+    width: 80%;
+    float: left;
+    outline: none;
+    border: none;
+}
+
+form.search-container button {
+    width: 18%;
+    float: left;
+    padding: 0.49rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
